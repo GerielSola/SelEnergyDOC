@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo - Procedimentos Operacionais Padrão (POPs) | SelEnergy</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-top: 40px;
+        }
+        h3 {
+            margin-top: 30px;
+            color: #34495e;
+        }
+        .header-logo {
+            position: absolute;
+            left: 30px;
+            top: 30px;
+            max-width: 200px;
+            height: auto;
+            filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .document-header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            position: relative;
+        }
+        .status-completed {
+            background-color: #d4edda;
+            color: #155724;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .status-partial {
+            background-color: #fff3cd;
+            color: #856404;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .status-pending {
+            background-color: #f8d7da;
+            color: #721c24;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .status-table {
+            width: 100%;
+        }
+        .status-table th:first-child {
+            width: 60%;
+        }
+        .status-table th:nth-child(2) {
+            width: 20%;
+        }
+        .conclusion-box {
+            background-color: #e8f4fd;
+            border-radius: 4px;
+            padding: 20px;
+            margin: 30px 0;
+            border-left: 4px solid #3498db;
+        }
+        .document-list {
+            columns: 1;
+            -webkit-columns: 1;
+            -moz-columns: 1;
+            margin: 20px 0;
+            list-style: none;
+            padding-left: 0;
+        }
+        .document-list li {
+            margin-bottom: 20px;
+            break-inside: avoid;
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #2c3e50;
+        }
+        .btn-link {
+            display: inline-block;
+            background-color: #ED6E00;
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: background 0.2s;
+        }
+        .btn-link:hover {
+            background-color: #c55a00;
+        }
+        .pop-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #2c3e50;
+        }
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .changes-table {
+            width: 100%;
+            margin-top: 20px;
+        }
+        .badge {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="document-header">
+        <img src="Logo SelEnergy.png" alt="SelEnergy Logo" class="header-logo">
+
+        <h1>RESUMO - PROCEDIMENTOS OPERACIONAIS PADRÃO (POPs)</h1>
+        <p><strong>Documento:</strong> Consolidado dos Procedimentos da Linha de Produção</p>
+        
+        <table style="width: 80%; margin: 0 auto;">
+            <tr>
+                <td><strong>Código:</strong> POP-RES-001</td>
+                <td><strong>Revisão:</strong> 00</td>
+            </tr>
+            <tr>
+                <td><strong>Data de Emissão:</strong> 02/06/2026</td>
+                <td><strong>Status:</strong> <span class="status-completed">100% Concluído</span></td>
+            </tr>
+        </table>
+    </div>
+
+    <h2>1. INTRODUÇÃO</h2>
+    <p>Este documento consolida os <span class="highlight">Procedimentos Operacionais Padrão (POPs)</span> da SelEnergy para a fabricação de baterias de Lítio Ferro Fosfato (LiFePO₄). Os POPs descrevem, passo a passo, as atividades desde o recebimento da matéria-prima até a logística reversa, garantindo a padronização, a qualidade e a segurança do processo produtivo. Clique nos botões abaixo para acessar o documento completo de cada procedimento.</p>
+
+    <h2>2. STATUS DA DOCUMENTAÇÃO POP</h2>
+    
+    <table class="status-table">
+        <tr>
+            <th>Categoria</th>
+            <th>Status</th>
+            <th>Observações</th>
+        </tr>
+        <tr>
+            <td><strong>Total de POPs criados</strong> (001 a 011)</td>
+            <td><span class="status-completed">11 documentos - 100% Concluído</span></td>
+            <td>Cobre todo o fluxo produtivo, qualidade, rastreabilidade e logística reversa.</td>
+        </tr>
+    </table>
+
+    <h2>3. LISTA COMPLETA DOS PROCEDIMENTOS OPERACIONAIS PADRÃO</h2>
+    
+    <ul class="document-list">
+        <li>
+            <div class="pop-title">📦 POP-001 - Recebimento e Inspeção de Matéria-Prima (Células LiFePO₄)</div>
+            <p><strong>Objetivo:</strong> Padronizar o recebimento, inspeção e aceitação de células LiFePO₄, garantindo que apenas materiais conformes sejam liberados para a linha de montagem.</p>
+            <p><strong>Principais etapas:</strong> Conferência documental, inspeção visual e dimensional, medição de tensão (OCV) e resistência interna (RI), critérios de aceitação/rejeição.</p>
+            <p><strong>Status:</strong> <span class="status-completed">✅ Concluído</span> <span class="badge">Revisão 00</span></p>
+            <a href="FAB-POP-001_Recebimento_Inspecao.html" class="btn-link" target="_blank">Ver POP-001 completo →</a>
+        </li>
+        <li>
+            <div class="pop-title">🔋 POP-002 - Teste de Células Individuais</div>
+            <p><strong>Objetivo:</strong> Realizar teste de capacidade e balanceamento das células aprovadas no recebimento, garantindo uniformidade elétrica para montagem dos packs.</p>
+            <p><strong>Principais etapas:</strong> Ciclo de carga (CC-CV), descarga (CC) e recarga para 50% SoC; agrupamento (matching) por capacidade e resistência interna.</p>
+            <p><strong>Status:</strong> <span class="status-completed">✅ Concluído</span> <span class="badge">Revisão 00</span></p>
+            <a href="FAB-POP-002_Teste_Celulas_Individuais.html" class="btn-link" target="_blank">Ver POP-002 completo →</a>
+        </li>
+        <li>
+            <div class="pop-title">🔧 POP-003 - Montagem do Pack de Baterias (Conexão de Células)</div>
+            <p><strong>Objetivo:</strong> Padronizar a montagem dos packs, garantindo conexão em série correta, torque adequado dos barramentos e instalação dos sensores de temperatura.</p>
+            <p><strong>Principais etapas:</strong> Posicionamento das células, limpeza dos terminais, conexão em série com barramentos, aperto com torquímetro (8 Nm ±5%).</p>
+            <p><strong>Status:</strong> <span class="status-completed">✅ Concluído</span> <span class="badge">Revisão 01</span></p>
+            <a href="FAB-POP-003_Montagem_Pack.html" class="btn-link" target="_blank">Ver POP-003 completo →</a>
+        </li>
+        <li>
+            <div class="pop-title">📡 POP-004 - Instalação e Configuração do BMS</div>
+            <p><strong>Objetivo:</strong> Padronizar a instalação, conexão e configuração do Sistema de Gerenciamento de Bateria (BMS), garantindo monitoramento e proteção eficazes.</p>
+            <p><strong>Principais etapas:</strong> Fixação do BMS, conexão do chicote de balanceamento (ordem correta), verificação de tensões, configuração de parâmetros via software.</p>
+            <p><strong>Status:</strong> <span class="status-completed">✅ Concluído</span> <span class="badge">Revisão 00</span></p>
+            <a href="FAB-POP-004_Instalacao_BMS.html" class="btn-link" target="_blank">Ver POP-004 completo →</a>
+        </li>
+        <li>
+            <div class="pop-title">⚡ POP-005 - Teste de Ciclo Completo (Carga/Descarga)</div>
+            <p><strong>Objetivo:</strong> Validar a montagem do pack e a funcionalidade do BMS, verificando a capacidade total e o correto funcionamento das proteções.</p>
+            <p><strong>Principais etapas:</strong> Conexão ao analisador, ciclo de carga (0,2C até 58,4V), descarga (0,2C até 40V), verificação de desbalanceamento (<50mV) e proteções.</p>
+            <p><strong>Status:</strong> <span class="status-completed">✅ Concluído</span> <span class="badge">Revisão 00</span></p>
+            <a href="FAB-POP-005_Teste_Ciclo.html" class="btn-link" target="_blank">Ver POP-005 completo →</a>
+        </li>
+        <li>
+            <div class="pop-title">🏭 POP-006 - Instalação no Gabinete e Selagem</div>
+            <p><strong>Objetivo:</strong> Padronizar a instalação do pack dentro do gabinete metálico, conexão dos componentes externos e selagem para garantir grau de proteção IP63.</p>
+            <p><strong>Principais etapas:</strong> Limpeza do gabinete, fixação do pack, conexão de terminais externos e periféricos, aplicação de selante e fechamento com aperto cruzado.</p>
+            <p><strong>Status:</strong> <span class="status-completed">✅ Concluído</span> <span class="badge">Revisão 00</span></p>
+            <a href="FAB-POP-006_Instalacao_Gabinete.html" class="btn-link" target="_blank">Ver POP-006 completo →</a>
+        </li>
+        <li>
+            <div class="pop-title">✅ POP-007 - Teste de Qualidade Final e Comunicação (CAN/RS485)</div>
+            <p><strong>Objetivo:</strong> Realizar verificação final completa, testando comunicação, display, carga/descarga mínima e isolação elétrica (HiPot).</p>
+            <p><strong>Principais etapas:</strong> Teste de comunicação CAN/RS485, verificação do display, carga/descarga a 10A, teste HiPot (500V AC, corrente de fuga <5mA).</p>
+            <p><strong>Status:</strong> <span class="status-completed">✅ Concluído</span> <span class="badge">Revisão 00</span></p>
+            <a href="FAB-POP-007_Teste_Final.html" class="btn-link" target="_blank">Ver POP-007 completo →</a>
+        </li>
+        <li>
+            <div class="pop-title">📦 POP-008 - Embalagem e Identificação de Produto Acabado</div>
+            <p><strong>Objetivo:</strong> Padronizar a embalagem, etiquetagem e preparação do produto para expedição, garantindo integridade no transporte e informações ao cliente.</p>
+            <p><strong>Principais etapas:</strong> Limpeza final, inclusão de manual e garantia, acondicionamento com espuma, etiquetas de produto e etiquetas de transporte (Classe 9, UN 3480).</p>
+            <p><strong>Status:</strong> <span class="status-completed">✅ Concluído</span> <span class="badge">Revisão 01</span></p>
+            <a href="FAB-POP-008_Embalagem.html" class="btn-link" target="_blank">Ver POP-008 completo →</a>
+        </li>
+        <li>
+            <div class="pop-title">📊 POP-009 - Controle de Estoque e Rastreabilidade</div>
+            <p><strong>Objetivo:</strong> Estabelecer metodologia para controle de estoque e rastreabilidade total, desde o fornecedor até o cliente final.</p>
+            <p><strong>Principais etapas:</strong> Registro de lote no ERP, vinculação de QR Codes, número de série do produto, inventários rotativos e geral.</p>
+            <p><strong>Status:</strong> <span class="status-completed">✅ Concluído</span> <span class="badge">Revisão 01</span></p>
+            <a href="FAB-POP-009_Controle_Estoque.html" class="btn-link" target="_blank">Ver POP-009 completo →</a>
+        </li>
+        <li>
+            <div class="pop-title">⚠️ POP-010 - Manuseio de Não Conformidades</div>
+            <p><strong>Objetivo:</strong> Estabelecer sistemática para identificar, registrar, analisar e tratar não conformidades, eliminando causas e prevenindo recorrência.</p>
+            <p><strong>Principais etapas:</strong> Identificação e segregação, abertura do RNC (FOR-QLD-004), análise de causa raiz (5 Porquês), definição de disposição (refugo, retrabalho, devolução, concessão) e ações corretivas.</p>
+            <p><strong>Status:</strong> <span class="status-completed">✅ Concluído</span> <span class="badge">Revisão 01</span></p>
+            <a href="FAB-POP-010_Nao_Conformidades.html" class="btn-link" target="_blank">Ver POP-010 completo →</a>
+        </li>
+        <li>
+            <div class="pop-title">♻️ POP-011 - Logística Reversa (ECOSAFE)</div>
+            <p><strong>Objetivo:</strong> Estabelecer o processo de recebimento, triagem, armazenamento e destinação final de baterias em fim de vida útil, em conformidade com a PNRS e CONAMA 401.</p>
+            <p><strong>Principais etapas:</strong> Contato do cliente, recebimento físico, triagem e descarga de segurança, armazenamento em contentores UN 3480, envio para recicladora homologada com certificado de destinação.</p>
+            <p><strong>Status:</strong> <span class="status-completed">✅ Concluído</span> <span class="badge">Revisão 01</span></p>
+            <a href="FAB-POP-011_Logistica_Reversa.html" class="btn-link" target="_blank">Ver POP-011 completo →</a>
+        </li>
+    </ul>
+
+    <div class="conclusion-box">
+        <h2>4. CONCLUSÃO E PRÓXIMOS PASSOS</h2>
+        <p>Com os 11 POPs concluídos, a SelEnergy possui um <strong>Sistema de Gestão da Qualidade (SGQ) operacional completo</strong>, cobrindo todas as etapas produtivas, desde o recebimento de matéria-prima até a logística reversa. Esse conjunto de procedimentos é a base para:</p>
+        <ul>
+            <li>Padronização e treinamento consistente da equipe de produção e qualidade.</li>
+            <li>Certificação ISO 9001 e demais certificações aplicáveis.</li>
+            <li>Rastreabilidade total de cada componente e produto acabado.</li>
+            <li>Conformidade com requisitos legais e ambientais.</li>
+        </ul>
+        <p><strong>Próximo passo recomendado:</strong> Integrar os POPs ao sistema ERP, associar os formulários (FOR-QLD) e iniciar os treinamentos práticos com os técnicos de montagem e qualidade, conforme previsto no <strong>Plano de Treinamento</strong> (documento pendente na Fase 2 da Análise de Gaps).</p>
+    </div>
+
+    <h2>5. CONTROLE DE ALTERAÇÕES</h2>
+    <table class="changes-table">
+        <thead>
+            <tr>
+                <th>Revisão</th>
+                <th>Data</th>
+                <th>Nome</th>
+                <th>Descrição da Alteração</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>00</td>
+                <td>02/06/2026</td>
+                <td>Equipe de Qualidade / Diretoria</td>
+                <td>Emissão inicial do resumo consolidado com 11 POPs.</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
